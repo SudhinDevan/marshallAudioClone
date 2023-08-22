@@ -1,0 +1,496 @@
+@font-face {
+  font-family: marshallhelvetic;
+  src: url(Fonts/HelveticaNeueLTPro-Cn.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  height: 1.025cm;
+}
+
+.firstline {
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 13px;
+  font-family: marshallhelvetic;
+}
+
+.returns,
+.warranty,
+.shipping {
+  font-style: normal;
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing: .05rem;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.section-first {
+  width: 100%;
+  height: 710px;
+  background-image: url("Images/middleton-global-launch-hero-desktop.jpg");
+  background-size: contain;
+  margin: 0;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.headphones :hover,
+.speakers :hover,
+.offers :hover,
+.edition :hover,
+.nonstop :hover {
+  text-decoration: underline;
+}
+
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  font-family: marshallhelvetic;
+  font-size: 15px;
+  letter-spacing: 0.03cm;
+  cursor: pointer;
+}
+
+.logo {
+  padding-left: 28px;
+  display: inline-block;
+  width: 123.2px;
+  height: 31px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.headphones {
+  margin-left: 80px;
+}
+
+.headphones,
+.speakers,
+.offers,
+.edition,
+.nonstop {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+}
+
+#searchicon {
+  margin-left: 25px;
+}
+
+.material-icons {
+  padding: 5px;
+}
+
+.usa {
+  margin-left: 15px;
+  text-align: center;
+}
+
+#downarrow {
+  vertical-align: top;
+}
+
+.legendary-sound {
+  margin-top: 150px;
+  margin-left: 80px;
+  font-size: 40px;
+  letter-spacing: 0.1cm;
+  font-family: marshallhelvetic;
+  width: 400px;
+  font-weight: 900;
+}
+
+.portable-sound {
+  font-family: marshallhelvetic;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+.middleton-button {
+  margin-left: 80px;
+  margin-top: 20px;
+  font-family: marshallhelvetic;
+  font-weight: 700;
+  padding: 6px 20px 6px 20px;
+  border-radius: 1px;
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+}
+
+.legendary_middleton {
+  cursor: pointer;
+}
+
+.section-second {
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+  height: 440px;
+  background-color: #161616;
+  margin: 0;
+  color: white;
+  display: flex;
+}
+
+.part-one,
+.part-two,
+.part-three {
+  width: 400px;
+  cursor: pointer;
+}
+
+.speaker1,
+.speaker2,
+.speaker3 {
+  padding: 40px 40px 0px 40px;
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.workhorse,
+.legend,
+.performer {
+  padding-top: 20px;
+  margin-left: 100px;
+  font-weight: 800;
+  width: 200px;
+  font-size: 25px;
+  text-align: center;
+  font-family: marshallhelvetic;
+  display: flex;
+
+}
+
+.gen3,
+.stanmore3,
+.woburn3 {
+  padding: 10px 35px 10px 35px;
+  text-align: center;
+  font-family: marshallhelvetic;
+
+}
+
+.section-third {
+  width: 100%;
+  height: 709px;
+  background-image: url("Images/headset_girl.jpg");
+  background-size: contain;
+  margin: 0;
+}
+
+.icon_reborn {
+  font-family: marshallhelvetic;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.02cm;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 300px;
+  margin-left: 900px;
+  cursor: pointer;
+}
+
+.eighty_hrs {
+  font-family: marshallhelvetic;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 0px 15px 0px;
+  margin-left: 900px;
+  cursor: pointer;
+}
+
+.find {
+  background-color: white;
+  font-family: marshallhelvetic;
+  font-weight: 700;
+  padding: 6px 20px 6px 20px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  margin-left: 950px;
+}
+
+.section-fourth {
+  width: 100%;
+  height: 740px;
+  background-color: #262626;
+}
+
+.heritage_banner {
+  margin-left: 30px;
+  padding: 30px 70px 0px 100px;
+  width: 1000px;
+  height: 500px;
+  cursor: pointer;
+}
+
+.sixty-years {
+  font-family: marshallhelvetic;
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 0.03cm;
+  padding: 20px 5px 0px 5px;
+  display: inline-block;
+  margin-left: 470px;
+  cursor: pointer;
+}
+
+.amplify {
+  font-family: marshallhelvetic;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 0.02cm;
+  width: 450px;
+  padding: 10px 0px 10px 0px;
+  margin-left: 400px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.explore {
+  background-color: white;
+  font-family: marshallhelvetic;
+  font-weight: 700;
+  padding: 6px 20px 6px 20px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  letter-spacing: 0.02cm;
+  margin-left: 560px;
+}
+
+.section-fifth {
+  width: 100%;
+  height: 100px;
+  background-color: #161616;
+  color: white;
+  font-family: marshallhelvetic;
+}
+
+.signup {
+  margin-left: 60px;
+  padding: 20px 10px 0px 20px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 0.02cm;
+}
+
+.textbox {
+  width: 400px;
+  height: 35px;
+  text-align: center;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: white;
+  display: inline-block;
+  margin-left: 50px;
+
+}
+
+.policy {
+  padding: 0px 50px 0px 50px;
+  font-size: 14px;
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.subscribe {
+  background-color: white;
+  font-family: marshallhelvetic;
+  font-weight: 700;
+  padding: 6px 20px 6px 20px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  vertical-align: auto;
+  letter-spacing: 0.02cm;
+}
+
+.discount {
+  margin-left: 80px;
+  font-size: 16px;
+  letter-spacing: 0.02cm;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section-sixth {
+  width: 100%;
+  height: 950px;
+  background-color: black;
+  color: white;
+  font-family: marshallhelvetic;
+}
+
+.customer {
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.03cm;
+}
+
+.bottom_policies {
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.03cm;
+}
+
+.main {
+  font-size: 13px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 40px;
+  color: #999;
+  letter-spacing: 0.025cm;
+  line-height: 0.7cm;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.second-policy {
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 40px;
+  color: #999;
+  line-height: 0.7cm;
+  letter-spacing: 0.025cm;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.second-policy :hover,
+.main :hover {
+  text-decoration: underline;
+}
+
+.account {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  margin-left: 230px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.myacc {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.03cm;
+}
+
+.createacc {
+  padding: 10px 0px 10px 0px;
+  font-size: 13px;
+  color: #999;
+}
+
+.loginbutton {
+  padding: 8px 60px 8px 60px;
+  border-radius: 1px;
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 20px;
+  font-family: marshallhelvetic;
+  font-weight: bold;
+  letter-spacing: 0.025cm;
+  cursor: pointer;
+}
+
+.createaccbutton {
+  padding: 8px 26px 8px 26px;
+  border-radius: 1px;
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  font-family: marshallhelvetic;
+  font-weight: bold;
+  letter-spacing: 0.025cm;
+  cursor: pointer;
+}
+
+.payment {
+  margin-top: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.safe_payment {
+  margin-left: 530px;
+  font-size: 25px;
+  letter-spacing: 0.05cm;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.methods {
+  margin-left: 500px;
+  color: #999;
+  width: 250px;
+  text-align: center;
+}
+
+.cards {
+  padding: 20px 20px 20px 0px;
+  margin-left: 500px;
+  letter-spacing: 0.5cm;
+}
+
+.lastline {
+  margin-top: 80px;
+  margin-left: 350px;
+}
+
+.zound {
+  margin-left: 100px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.025cm;
+  width: 350px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.lastlogo {
+  margin-top: 120px;
+  margin-left: 140px;
+  padding: 10px;
+  width: 230px;
+}
+
+.sudhin {
+  letter-spacing: 0.3cm;
+  font-weight: 800;
+  margin-left: 135px;
+}
